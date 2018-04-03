@@ -51,8 +51,8 @@ class TicTacToeEnv(gym.Env):
                 done = True
 
         # check draw
-        if(board[0] != 0 and board[1] != 0 and board[2] != 0 and board[3] != 0 and
-           board[4] != 0 and board[5] != 0 and board[6] != 0 and board[7] != 0 and
+        if(board[0] != 0 and board[1] != 0 and board[2] != 0 and board[3] != 0
+           board[4] != 0 and board[5] != 0 and board[6] != 0 and board[7] != 0
            board[8] != 0 and not done):
             done = True
                 
